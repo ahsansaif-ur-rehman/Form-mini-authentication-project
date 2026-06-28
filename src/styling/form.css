@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-cont {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6b2fa0 0%, #9b3fbf 40%, #e05fa0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 420px;
+  color: white;
+  text-align: center;
+}
+
+.form h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  color: white;
+}
+
+.form p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+}
+
+.inputs {
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.inputs label {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.pass {
+  margin-top: 1rem;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  outline: none;
+}
+
+.inputs input::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.inputs input:focus {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.text {
+  color: #ffb3b3;
+  font-size: 0.82rem;
+  margin-top: 0.3rem;
+  display: inline-block;
+}
+
+.login {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #7b35b5;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-top: 0.5rem;
+}
+
+.login:hover {
+  opacity: 0.88;
+}
+
+.switch-text {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+}
+
+.switch-link {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}
+
+.welcome-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
